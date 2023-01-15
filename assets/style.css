@@ -1,9 +1,11 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;700&display=swap');
+
 /* Reset code */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: black;
     text-decoration: none;
     list-style: none;
 }
@@ -12,16 +14,16 @@
 }
 
 /* General configs */
-
 :root{
     --nav-bg: #5F27B9;
     --nav-logo: #5F27B9;
-
     --footer-bg: #5F27B9;
 }
 html{
     font: 100% 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    min-height: 100vh;
+    height: 100%;
 }
 h1{
     font-family: 'Poppins';
@@ -89,13 +91,11 @@ nav a:hover{
 }
 
 /* Container and sections */
-
 section:not(:first-of-type){
     padding: 90px 0;
 }
 
 /* Titles */
-
 .titles{
     margin-bottom: 20px;
     text-align: center;
@@ -121,7 +121,6 @@ section:not(:first-of-type){
 }
 
 /* Home */
-
 #home{
     padding: 80px 40px 0;
     display: flex;
@@ -177,7 +176,6 @@ section:not(:first-of-type){
 }
 
 /* Story */
-
 #story p{
     display: block;
     margin: 20px auto 0;
@@ -215,7 +213,6 @@ section:not(:first-of-type){
 }
 
 /* Projects */
-
 #projects{
     background-color: #5F27B9;
     text-align: center;
@@ -254,7 +251,6 @@ section:not(:first-of-type){
 }
 
 /* Organogram */
-
 .team::-webkit-scrollbar{
     display: none;
 }
@@ -317,7 +313,6 @@ section:not(:first-of-type){
 }
 
 /* Frequently Asked Questions */
-
 .questions{
     margin: 0 auto;
     width: 95%;
